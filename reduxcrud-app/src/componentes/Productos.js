@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-
+import Producto from './Producto';
 // Redux
 import { connect } from 'react-redux';
 import { mostrarProductos } from './../actions/productosActions';
@@ -11,8 +11,24 @@ class Productos extends Component {
     }
 
     render() {
+        const { productos } = this.props;
+        console.log(productos);
         return(
-            <h1>Desde Componente Productos.js</h1>
+            <React.Fragment>
+                <h2 className="text-center my-5">Listado de Productos</h2>
+                <div className="row justify-content-center">
+                    <div className="col-md-8">
+                        <ul>
+                            {productos.map(producto => (
+                                <Producto
+                                            key={producto.id}
+                                            info={producto}
+                                ></Producto>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+            </React.Fragment>
         );
     }
 }

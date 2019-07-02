@@ -1,5 +1,5 @@
 /* *** Reducer: Recibe state y retorna nuevo state *** */
-import { MOSTRAR_PRODUCTOS } from './../actions/types';
+import { MOSTRAR_PRODUCTOS, ELIMINAR_PRODUCTO } from './../actions/types';
 
 
 // Cada Reducer tiene su propio state
@@ -13,6 +13,11 @@ export default function(state = initialState, action) {
             return {
                 ...state,
                 productos: action.payload
+            }
+        case ELIMINAR_PRODUCTO:
+            return {
+                ...state,
+                productos: state.productos.filter(producto => producto.id !== action.payload)
             }
         default:
             return state;
