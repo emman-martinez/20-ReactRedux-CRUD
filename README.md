@@ -9,3 +9,9 @@ ReactJS-Redux: Aplicación CRUD
 ### json-server
 '> npm install -g json-server'
 '> json-server --watch productos.json --port 5000'
+
+### Herramientas Netlify-CLI
+'> npm install -g netlify-cli'
+
+### Página Web: Netlify
+'https://reactjsreduxcrud.netlify.com/'
