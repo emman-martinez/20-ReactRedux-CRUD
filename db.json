@@ -1,0 +1,43 @@
+{
+    "productos": [{
+            "id": 0,
+            "nombre": "Pastel de Vainilla con Chocolate",
+            "precio": "120"
+        },
+        {
+            "nombre": "Pastel de Zanahoria",
+            "precio": "45",
+            "id": 4
+        },
+        {
+            "nombre": "Pastel de Chocolate",
+            "precio": "60",
+            "id": 5
+        },
+        {
+            "nombre": "Roles de Canela",
+            "precio": "60",
+            "id": 7
+        },
+        {
+            "nombre": "Chocolatin",
+            "precio": "20",
+            "id": 8
+        },
+        {
+            "nombre": "Chocolate Caliente",
+            "precio": "10",
+            "id": 9
+        },
+        {
+            "id": 10,
+            "nombre": "Pastel de Nuez",
+            "precio": "50"
+        },
+        {
+            "nombre": "Roles Glaseados",
+            "precio": "70",
+            "id": 11
+        }
+    ]
+}
