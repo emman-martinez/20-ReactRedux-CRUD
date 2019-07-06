@@ -1,6 +1,10 @@
 # 20-ReactRedux-CRUD
 ReactJS-Redux: Aplicación CRUD
 
+## Lanzar la aplicación
+' >npm start' (Terminal 1)
+' >json-server --watch productos.json --port 5000 ' (Terminal 2)
+
 ## Dependencias
 
 ### redux, react-redux, redux-thunk, axios, react-router-dom

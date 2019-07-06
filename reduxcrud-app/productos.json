@@ -31,14 +31,9 @@
       "id": 9
     },
     {
-      "id": 10,
       "nombre": "Pastel de Nuez",
-      "precio": "50"
-    },
-    {
-      "nombre": "Roles Glaseados",
-      "precio": "70",
-      "id": 11
+      "precio": "50",
+      "id": 10
     }
   ]
 }
